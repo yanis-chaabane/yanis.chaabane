@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yanis Chaabane</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    </head>
+
+    <body>
+        <div id="navigation" class="hero">
+            <nav class="navbar navbar-expand-lg navStyle navbar-inverse navbar-static-top is-fixed-top bg-white">
+                <div class="navbar-item has-text-centered">
+                    <p>Yanis Chaabane</p>
+                </div>
+                <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                <div class="collapse navbar-collapse navbar-menu" id="navbarMenuHeroB">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="../index.html">
+                          Accueil
+                        </a>
+                        <a class="navbar-item is-active" href="presentation.html">
+                            Présentation
+                          </a>
+                        <a class="navbar-item" href="projects.html">
+                          Projets
+                        </a>
+                        <a class="navbar-item" href="contact.html">
+                          Contact
+                        </a>
+                        <span class="navbar-item">
+                          <a class="button is-info is-inverted" href="https://github.com/Yanisiman">
+                            <span class="icon">
+                              <i class="fab fa-github"></i>
+                            </span>
+                            <span>Github</span>
+                          </a>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <footer id="foot" class="hero">
+            <div class="hero-body foot has-text-centered">
+              <p>
+                &copy 2020 Made by Yanis Chaabane using Bulma and Bootstrap
+              </p>	
+            </div>
+        </footer>
+    </body>
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+        
+          // Get all "navbar-burger" elements
+          const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        
+          // Check if there are any navbar burgers
+          if ($navbarBurgers.length > 0) {
+        
+            // Add a click event on each of them
+            $navbarBurgers.forEach( el => {
+              el.addEventListener('click', () => {
+        
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+        
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+        
+              });
+            });
+          }
+        
+        });
+        </script>
+
+</html>
