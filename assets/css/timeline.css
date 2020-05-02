@@ -138,3 +138,11 @@
     margin-top: 5px;
   }
 }
+
+.gaps{
+  margin-right: 5mm;
+}
+
+.padless{
+  padding-bottom: 0%;
+}
