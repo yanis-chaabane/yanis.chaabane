@@ -1,3 +1,12 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+
 .foot{
     padding-bottom: 1%;
+}
+
+.middle{
+    padding-left: 15%;
+    padding-right: 15%;
 }
