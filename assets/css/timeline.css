@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px){
+@media screen and (min-width: 900px){
   .timeline {
     list-style: none;
     padding: 20px 0 20px;
@@ -137,6 +137,10 @@
   .timeline-body > p + p {
     margin-top: 5px;
   }
+
+  /*.timeline{
+    display: none;
+  }*/
 }
 
 .gaps{
@@ -145,4 +149,13 @@
 
 .padless{
   padding-bottom: 0%;
+}
+
+@media screen and (max-width : 900px){
+  .timeline > li{
+    border-style: solid;
+    border-color: grey;
+    padding: 5mm;
+    margin-bottom: 5mm;
+  }
 }
