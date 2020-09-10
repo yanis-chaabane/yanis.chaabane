@@ -204,3 +204,19 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.projects > .message {
+    min-width: 300px;
+    width: 10vw;
+}
+
+.opacity {
+    opacity: 0.5;
+}
