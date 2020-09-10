@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+/* :root {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+img {
+    filter: invert(1) hue-rotate(180deg);
+} */
+
+
 html {
     min-height: 100vh;
     min-width: 100%;
