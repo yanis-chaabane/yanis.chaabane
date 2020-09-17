@@ -65,3 +65,7 @@
 .languages-body > h3 > span {
     font-size: small;
 }
+
+p {
+    margin: 0;
+}

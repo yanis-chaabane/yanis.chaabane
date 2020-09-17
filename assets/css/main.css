@@ -88,7 +88,7 @@ body{
 .is-rounded {
     border-radius: 50%;
     height: 256px;
-    opacity: .4;
+    opacity: .6;
 }
 
 @media screen and (max-width: 600px) {
@@ -113,11 +113,12 @@ body{
 }
 
 footer {
+    height: 80px;
     margin-top: 20px;
     background-color: lightgrey;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 1vh;
+    padding: 1vh 0;
 }
