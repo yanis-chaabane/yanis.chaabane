@@ -1,0 +1,27 @@
+/* Contact page */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+    justify-content: center;
+}
+
+.column {
+    min-width: 200px;
+    width: 20%;
+    height: 15vh;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
